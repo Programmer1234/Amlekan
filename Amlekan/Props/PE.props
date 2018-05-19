@@ -5,11 +5,8 @@
   <PropertyGroup />
   <ItemDefinitionGroup>
     <Link>
-      <AdditionalDependencies />
+      <AdditionalDependencies>../ExternalDeps/googletest-release-1.8.0/googletest/msvc/gtest/$(Configuration)/gtestd.lib;../ExternalDeps/googletest-release-1.8.0/googletest/msvc/gtest/$(Configuration)/gtest_maind.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
-    <ClCompile>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-    </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup />
 </Project>
