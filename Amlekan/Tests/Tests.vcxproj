@@ -157,7 +157,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\Tests\BaseTest\BaseTest.cpp" />
     <ClCompile Include="..\src\Tests\main.cpp" />
+    <ClCompile Include="..\src\Tests\UtilsTest\BufferTest.cpp" />
+    <ClCompile Include="..\src\Tests\UtilsTest\CalculatorTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Tests\BaseTest\BaseTest.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utils\Utils.vcxproj">
+      <Project>{af02a2fd-2231-4770-b3b7-e6930a219f3a}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

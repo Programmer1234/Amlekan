@@ -13,10 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="UtilsTest">
+      <UniqueIdentifier>{7375511f-81bb-4e5c-a5d5-871711afd08d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseTest">
+      <UniqueIdentifier>{5799923a-f6af-48ef-968f-b4811f44d5f9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\Tests\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\Tests\UtilsTest\BufferTest.cpp">
+      <Filter>UtilsTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Tests\BaseTest\BaseTest.cpp">
+      <Filter>BaseTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Tests\UtilsTest\CalculatorTest.cpp">
+      <Filter>UtilsTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Tests\BaseTest\BaseTest.h">
+      <Filter>BaseTest</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
