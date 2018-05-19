@@ -17,6 +17,15 @@ TEST_F(CalculatorTest, FactorialWrong) {
 	EXPECT_NE(Utils::Calculator::factorial(7), 3);
 }
 
+TEST_F(CalculatorTest, NegativeNumber) {
+	EXPECT_THROW(Utils::Calculator::factorial(-2),std::runtime_error);
+}
+
+
+TEST_F(CalculatorTest, Zero) {
+	EXPECT_THROW(Utils::Calculator::factorial(0), std::runtime_error);
+}
+
 /*
 	Make Test fail
 TEST_F(CalculatorTest, FactorialFail) {
