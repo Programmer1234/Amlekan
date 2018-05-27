@@ -51,10 +51,15 @@
 #include "gtest/gtest.h"
 
 // hash_map and hash_set are available under Visual C++, or on Linux.
-#if GTEST_HAS_HASH_MAP_
+#if GTEST_HAS_UNORDERED_MAP_
+# include <unordered_map>       // NOLINT
+#elif GTEST_HAS_HASH_MAP_
 # include <hash_map>            // NOLINT
 #endif  // GTEST_HAS_HASH_MAP_
-#if GTEST_HAS_HASH_SET_
+
+#if GTEST_HAS_UNORDERED_SET_
+# include <unordered_set>       // NOLINT
+#elif GTEST_HAS_HASH_SET_
 # include <hash_set>            // NOLINT
 #endif  // GTEST_HAS_HASH_SET_
 
