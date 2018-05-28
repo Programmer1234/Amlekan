@@ -8,7 +8,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>../ExternalDeps/googletest-release-1.8.0/googletest/include;../src/Utils;../ExternalDeps/googletest-release-1.8.0/googlemock/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../ExternalDeps/googletest-master/googletest/include;../src/Utils;../ExternalDeps/googletest-master/googlemock/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup>

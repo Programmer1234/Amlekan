@@ -5,7 +5,7 @@
   <PropertyGroup />
   <ItemDefinitionGroup>
     <Link>
-      <AdditionalDependencies>../ExternalDeps/googletest-release-1.8.0/googletest/msvc/gtest/$(Configuration)/gtestd.lib;../ExternalDeps/googletest-release-1.8.0/googletest/msvc/gtest/$(Configuration)/gtest_maind.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>../ExternalDeps/googletest-master/googletest/msvc/2010/gtest/$(PlatformName)-$(Configuration)/gtestd.lib;../ExternalDeps/googletest-master/googletest/msvc/2010/gtest/$(PlatformName)-$(Configuration)/gtest_maind.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup />

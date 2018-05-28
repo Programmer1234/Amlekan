@@ -103,7 +103,6 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>../ExternalDeps/googletest-release-1.8.0/googletest/msvc/gtest/$(Configuration)/gtestd.lib;../ExternalDeps/googletest-release-1.8.0/googletest/msvc/gtest/$(Configuration)/gtest_maind.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
