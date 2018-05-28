@@ -7,7 +7,7 @@
 #include "../BaseTest/BaseTest.h"
 #include "MyRunable.h"
 
-#include <Windows.h>7
+#include <Windows.h>
 
 
 void callable() {
