@@ -143,10 +143,15 @@
     <ClInclude Include="..\src\Utils\BasicDefs.h" />
     <ClInclude Include="..\src\Utils\Buffer.h" />
     <ClInclude Include="..\src\Utils\Calculator.h" />
+    <ClInclude Include="..\src\Utils\IRunable.h" />
+    <ClInclude Include="..\src\Utils\MyRunable.h" />
+    <ClInclude Include="..\src\Utils\RunableManager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\Utils\Buffer.cpp" />
     <ClCompile Include="..\src\Utils\Calculator.cpp" />
+    <ClCompile Include="..\src\Utils\MyRunable.cpp" />
+    <ClCompile Include="..\src\Utils\RunableManager.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

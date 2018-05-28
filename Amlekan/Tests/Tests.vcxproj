@@ -160,6 +160,7 @@
     <ClCompile Include="..\src\Tests\main.cpp" />
     <ClCompile Include="..\src\Tests\UtilsTest\BufferTest.cpp" />
     <ClCompile Include="..\src\Tests\UtilsTest\CalculatorTest.cpp" />
+    <ClCompile Include="..\src\Tests\UtilsTest\MyRunableTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\Tests\BaseTest\BaseTest.h" />
