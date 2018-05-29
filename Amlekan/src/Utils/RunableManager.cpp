@@ -6,14 +6,14 @@ RunableManager::RunableManager()
 RunableManager::~RunableManager()
 { }
 
-void RunableManager::push(std::shared_ptr<IRunable> runable)
+void RunableManager::push(IRunable* runable)
 {
 	m_runableList.push_back(runable);
 }
 
-std::shared_ptr<IRunable> RunableManager::pop()
+IRunable* RunableManager::pop()
 {
-	std::shared_ptr<IRunable> runable = m_runableList.back();
+	IRunable* runable = m_runableList.back();
 	m_runableList.pop_back();
 	return runable;
 }

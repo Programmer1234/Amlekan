@@ -1,3 +1,5 @@
+#pragma once
+
 #include <memory>
 #include <vector>
 #include <IRunable.h>
@@ -10,9 +12,9 @@ public:
 
 	virtual ~RunableManager();
 
-	void push(std::shared_ptr<IRunable> runable);
+	void push(IRunable* runable);
 
-	std::shared_ptr<IRunable> pop();
+	IRunable* pop();
 
 	void runAll();
 
@@ -20,6 +22,6 @@ public:
 
 private:
 
-	std::vector<std::shared_ptr<IRunable>> m_runableList; 
+	std::vector<IRunable*> m_runableList; 
 
 };

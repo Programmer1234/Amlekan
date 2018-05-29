@@ -5,7 +5,7 @@
   <PropertyGroup />
   <ItemDefinitionGroup>
     <Link>
-      <AdditionalDependencies>../ExternalDeps/googletest-master/googletest/msvc/2010/gtest/$(PlatformName)-$(Configuration)/gtestd.lib;../ExternalDeps/googletest-master/googletest/msvc/2010/gtest/$(PlatformName)-$(Configuration)/gtest_maind.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>../ExternalDeps/googletest-master/googletest/msvc/2010/gtest/$(PlatformName)-$(Configuration)/gtestd.lib;../ExternalDeps/googletest-master/googletest/msvc/2010/gtest/$(PlatformName)-$(Configuration)/gtest_maind.lib;../ExternalDeps/googletest-master/googlemock/msvc/2015/$(PlatformName)-$(Configuration)/gmock.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup />

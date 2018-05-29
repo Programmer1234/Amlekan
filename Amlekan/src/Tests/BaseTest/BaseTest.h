@@ -1,3 +1,4 @@
+#pragma once
 // The fixture for testing class Foo.
 
 #include "gmock/gmock.h"

@@ -36,6 +36,9 @@
     <ClCompile Include="..\src\Tests\UtilsTest\MyRunableTest.cpp">
       <Filter>UtilsTest</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\Tests\UtilsTest\RunableManagerTest.cpp">
+      <Filter>UtilsTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\Tests\BaseTest\BaseTest.h">
